@@ -38,7 +38,7 @@ public class ExtentReport {
 		driver.get("http://www.leafground.com/");
 		extentReport = new ExtentReports("C:\\Users\\deenadhayalan\\Desktop\\ExtentReport.html");
 		extentTest = extentReport.startTest("Test");
-		PageFactory.initElements(driver, SeleniumTest.class);
+		PageFactory.initElements(driver, ExtentReport.class);
 
 	}
 
